@@ -15,6 +15,7 @@ import org.junit.Test;
 import com.life.design.pattern.adapter.Adaptee01;
 import com.life.design.pattern.adapter.ClassAdapter;
 import com.life.design.pattern.adapter.ObjectAdapter;
+import com.life.design.pattern.adapter.SpecificAdapter;
 import com.life.design.pattern.adapter.Target;
 import com.life.design.pattern.adapter.TwowayAdapter;
 
@@ -59,5 +60,11 @@ public class AdapterTest {
 			}
 		});
 		adaptee01.oldMethod01();
+	}
+	
+	@Test
+	public void defaultAdapterTest() {
+		Target target=new SpecificAdapter();
+		target.newMethod01();
 	}
 }
