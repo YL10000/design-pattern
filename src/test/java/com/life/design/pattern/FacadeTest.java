@@ -15,7 +15,6 @@ import org.junit.Test;
 import com.life.design.pattern.facade.AbstractFacade;
 import com.life.design.pattern.facade.EncryptFacade;
 import com.life.design.pattern.facade.Facade;
-import com.life.design.pattern.facade.NewEncryptFacade;
 import com.life.design.pattern.facade.backmanager.AbstractBackManager;
 import com.life.design.pattern.facade.backmanager.BackManager;
 
